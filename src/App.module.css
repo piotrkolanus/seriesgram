@@ -1,0 +1,8 @@
+.showsWrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.show{
+  cursor: pointer;
+}
