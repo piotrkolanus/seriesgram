@@ -1,0 +1,17 @@
+.showContainer{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    margin-top:1.5rem;
+    
+}
+
+.imgContainer{
+    /* justify-content: center; */
+    margin:1.5rem;
+}
+
+.description{
+    margin:0 10rem 1.5rem;
+}

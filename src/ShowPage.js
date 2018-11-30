@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Spinner from "react-svg-spinner";
+import styles from "./ShowPage.module.css";
 
 class ShowPage extends Component {
   state = {
@@ -22,11 +23,15 @@ class ShowPage extends Component {
       return <h1>Ni ma takiej strony</h1>;
     }
     return (
-      <div>
-        <h3 onClick={() => this.props.history.push("/")}>Go back!</h3>
-        <img src={this.state.show.image_thumbnail_path} alt="thumbnail" />
-        <h4>{this.state.show.name}</h4>
-        <p>{this.state.show.description}</p>
+      <div className={styles.showPage}>
+        <div className={styles.showContainer}>
+          <h1>{this.state.show.name}</h1>
+          <div className={styles.imgContainer}>
+            <img src={this.state.show.image_thumbnail_path} alt="thumbnail" />
+          </div>
+          <p className={styles.description}>{this.state.show.description}</p>
+          <h3 onClick={() => this.props.history.push("/")}>Go back!</h3>
+        </div>
       </div>
     );
   }
