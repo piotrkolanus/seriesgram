@@ -46,7 +46,11 @@ class App extends Component {
     }
 
     if (this.state.tvShows.length === 0) {
-      return <h3> Nie ma takiego show</h3>;
+      return (
+        <div className={styles.notFound}>
+          <h3> Nie znaleźliśmy takiego show :(</h3>
+        </div>
+      );
     }
     const isLoadMoreVisible =
       !this.state.isLoading &&
@@ -54,18 +58,18 @@ class App extends Component {
       !this.state.search;
 
     return (
-      <>
+      <div className={styles.Wrapper}>
         <Search onSearchFinish={this.onSearchFinish} />
         <div className={styles.showsWrapper}>
           {this.state.tvShows.map(show => (
             <Show key={show.id} show={show} goToShow={this.goToShow} />
           ))}
-          {isLoadMoreVisible && (
-            <button onClick={this.loadMore}>Load more</button>
-          )}
           {this.state.isLoading && <Spinner size="24px" />}
         </div>
-      </>
+        {isLoadMoreVisible && (
+          <button onClick={this.loadMore}>Load more</button>
+        )}
+      </div>
     );
   }
 }

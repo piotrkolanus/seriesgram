@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from "./Search.module.css";
 
 class Search extends Component {
   state = {
@@ -19,8 +20,8 @@ class Search extends Component {
 
   render() {
     return (
-      <div>
-        <h3>Search for show</h3>
+      <div className={styles.searchWrapper}>
+        <h1>Search for show</h1>
         <input
           onKeyDown={this.handleKeyDown}
           value={this.state.text}
