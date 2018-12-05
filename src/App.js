@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Spinner from "react-svg-spinner";
 import Show from "./Show";
 import Search from "./Search";
+import CenteredSpinner from "./CenteredSpinner";
+import Spinner from "react-svg-spinner";
 
 import styles from "./App.module.css";
 
@@ -42,7 +43,7 @@ class App extends Component {
 
   render() {
     if (!this.state.tvShows) {
-      return <Spinner size="64px" speed="slow" />;
+      return <CenteredSpinner />;
     }
 
     if (this.state.tvShows.length === 0) {
@@ -64,8 +65,8 @@ class App extends Component {
           {this.state.tvShows.map(show => (
             <Show key={show.id} show={show} goToShow={this.goToShow} />
           ))}
-          {this.state.isLoading && <Spinner size="24px" />}
         </div>
+        {this.state.isLoading && <Spinner size="64px" color="white" />}
         {isLoadMoreVisible && (
           <button onClick={this.loadMore}>Load more</button>
         )}

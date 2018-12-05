@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Spinner from "react-svg-spinner";
+// import Spinner from "react-svg-spinner";
 import styles from "./ShowPage.module.css";
+import CenteredSpinner from "./CenteredSpinner";
 
 class ShowPage extends Component {
   state = {
@@ -17,7 +18,7 @@ class ShowPage extends Component {
   }
   render() {
     if (!this.state.show) {
-      return <Spinner size="64px" speed="fast" />;
+      return <CenteredSpinner />;
     }
     if (Array.isArray(this.state.show)) {
       return <h1>Ni ma takiej strony</h1>;
@@ -30,7 +31,7 @@ class ShowPage extends Component {
             <img src={this.state.show.image_thumbnail_path} alt="thumbnail" />
           </div>
           <p className={styles.description}>{this.state.show.description}</p>
-          <h3 onClick={() => this.props.history.push("/")}>Go back!</h3>
+          <button onClick={() => this.props.history.push("/")}>Go back!</button>
         </div>
       </div>
     );

@@ -1,6 +1,5 @@
 import React from "react";
 
-// import styles from "./App.module.css";
 import styles from "./Show.module.css";
 
 const Show = ({ show, goToShow }) => {

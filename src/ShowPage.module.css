@@ -24,3 +24,21 @@
         margin:0px 20px;
     }
 }
+
+.showContainer button{
+    padding:1rem;
+    border-radius: 1rem;
+    background-color:#54426B;
+    border:none;
+    font:inherit;
+    color:white;
+  
+    margin-bottom:1rem;
+  
+  }
+  
+  .showContainer button:hover{
+    background-color:#846ca4;
+    cursor:pointer;
+    
+  }
