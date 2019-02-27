@@ -1,13 +1,13 @@
 {
   "main.css": "/seriesgram/static/css/main.f3dc9c4e.chunk.css",
-  "main.js": "/seriesgram/static/js/main.bdce60ef.chunk.js",
-  "main.js.map": "/seriesgram/static/js/main.bdce60ef.chunk.js.map",
+  "main.js": "/seriesgram/static/js/main.6ed2712c.chunk.js",
+  "main.js.map": "/seriesgram/static/js/main.6ed2712c.chunk.js.map",
   "static/js/1.3f5883c5.chunk.js": "/seriesgram/static/js/1.3f5883c5.chunk.js",
   "static/js/1.3f5883c5.chunk.js.map": "/seriesgram/static/js/1.3f5883c5.chunk.js.map",
   "runtime~main.js": "/seriesgram/static/js/runtime~main.4cbbfe86.js",
   "runtime~main.js.map": "/seriesgram/static/js/runtime~main.4cbbfe86.js.map",
   "static/css/main.f3dc9c4e.chunk.css.map": "/seriesgram/static/css/main.f3dc9c4e.chunk.css.map",
   "index.html": "/seriesgram/index.html",
-  "precache-manifest.7b08ad97e88bd8cd41306bacaf1945c4.js": "/seriesgram/precache-manifest.7b08ad97e88bd8cd41306bacaf1945c4.js",
+  "precache-manifest.eb1a2d6e86e4e8d71be38a82c67a993e.js": "/seriesgram/precache-manifest.eb1a2d6e86e4e8d71be38a82c67a993e.js",
   "service-worker.js": "/seriesgram/service-worker.js"
 }

@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/seriesgram/static/js/runtime~main.4cbbfe86.js"
   },
   {
-    "revision": "bdce60ef5aeff110767e",
-    "url": "/seriesgram/static/js/main.bdce60ef.chunk.js"
+    "revision": "6ed2712ce26ac0da422b",
+    "url": "/seriesgram/static/js/main.6ed2712c.chunk.js"
   },
   {
     "revision": "3f5883c5644464f04a34",
     "url": "/seriesgram/static/js/1.3f5883c5.chunk.js"
   },
   {
-    "revision": "bdce60ef5aeff110767e",
+    "revision": "6ed2712ce26ac0da422b",
     "url": "/seriesgram/static/css/main.f3dc9c4e.chunk.css"
   },
   {
-    "revision": "f7a56cfb9b61c20c2df0b1a36f921c52",
+    "revision": "f961dc87f39e0a8ac989cb8a4d432ae7",
     "url": "/seriesgram/index.html"
   }
 ];
