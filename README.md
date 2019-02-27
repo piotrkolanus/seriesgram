@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # seriesgram
 
 Simple app for browsing tv series using episodate API
@@ -18,10 +17,3 @@ $ npm run start
 ```
 
 3. Go to http://localhost:3000/
-=======
-To run:
-
-yarn
-
-yarn start
->>>>>>> origin/master
