@@ -1,0 +1,30 @@
+.showWrapper{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  width: 200px;
+  margin:0 5px 0px;
+
+}
+.showImage {
+  height: 300px;
+  cursor: pointer;
+}
+
+.showImage img {
+  width: 100%;
+  height:100%;
+}
+
+.showWrapper p {
+  width:100%;
+  margin-bottom:1rem;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color:#54426B;
+}
+

@@ -1,0 +1,23 @@
+.searchWrapper{
+    display:flex;
+    flex-direction: column;
+
+    align-self: center;
+    margin:1.25rem 0 4rem;    
+    width:410px;
+}
+
+.searchWrapper h1{
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+
+.searchWrapper input{
+    display:block;
+    padding:5px;
+    font-size:1.5rem;
+    margin:0 1rem;
+    max-width:410px;
+    /* width:95%; */
+}
